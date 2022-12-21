@@ -16,7 +16,23 @@
 		EFAF85FF29531C0C0074E425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAF85FE29531C0C0074E425 /* main.m */; };
 		EFAF860729531C430074E425 /* MPPBFaceGeometry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF860529531C430074E425 /* MPPBFaceGeometry.framework */; };
 		EFAF860829531C430074E425 /* MPPBHand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF860629531C430074E425 /* MPPBHand.framework */; };
+		EFAF860B295322720074E425 /* MPPBFaceGeometry.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFAF860529531C430074E425 /* MPPBFaceGeometry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFAF860C295322720074E425 /* MPPBHand.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFAF860629531C430074E425 /* MPPBHand.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFAF860A2953226A0074E425 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EFAF860B295322720074E425 /* MPPBFaceGeometry.framework in CopyFiles */,
+				EFAF860C295322720074E425 /* MPPBHand.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EFAF85E929531C0A0074E425 /* DoubleFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +121,7 @@
 				EFAF85E529531C0A0074E425 /* Sources */,
 				EFAF85E629531C0A0074E425 /* Frameworks */,
 				EFAF85E729531C0A0074E425 /* Resources */,
+				EFAF860A2953226A0074E425 /* CopyFiles */,
 			);
 			buildRules = (
 			);
